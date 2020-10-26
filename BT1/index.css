@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f4f4f4;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+[type="checkbox"] {
+  margin-right: 10px;
+}
+[type="text"] {
+  width: 70%;
+}
+
+[type="text"],
+button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+li span {
+  display: inline-block;
+  padding: 10px;
+  width: 250px;
+}
+
+#app {
+  max-width: 450px;
+  margin: 32px auto;
+  padding: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: 2px solid #007bff;
+  margin: 0 0.5rem;
+}
